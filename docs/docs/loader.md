@@ -45,7 +45,7 @@ export const loader: LoaderFunction = ({ request }) => {
 
 | Name        | Description                                                                                                                                                         | Options                                               |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| DiskCache   | A cache that stores images in memory and on disk (depending on size) for the best efficiency. To use, install the `@next-boost/hybrid-disk-cache` library from npm. | { path: string, ttl: number, tbd: number }            |
+| DiskCache   | A cache that stores images in memory and on disk (depending on size) for the best efficiency. To use, install the `@udisc/hybrid-disk-cache` library from npm. | { path: string, ttl: number, tbd: number }            |
 | MemoryCache | A cache that only stores images in memory. Designed for platforms that do not have native disk access like Cloudflare.                                              | { maxSize: number (bytes), ttl: number, tbd: number } |
 
 **Note:**
