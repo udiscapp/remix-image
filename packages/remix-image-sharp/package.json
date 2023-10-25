@@ -1,5 +1,5 @@
 {
-  "name": "remix-image-sharp",
+  "name": "@udisc/remix-image-sharp",
   "version": "0.1.4",
   "description": "A Sharp transformer for remix-image",
   "author": "Josh McFarlin <josh@mcfarl.in>",
@@ -38,7 +38,10 @@
   },
   "peerDependencies": {
     "remix": "^1.0.0",
-    "remix-image": "^1.0.0",
+    "@udisc/remix-image": "^1.0.0",
     "sharp": "^0.31.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
